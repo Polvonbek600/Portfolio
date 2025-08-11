@@ -164,18 +164,199 @@ top: 1390px;
   left:850px;
   font-size: 18px;
 }
-.view:hover{
-  border: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  height: 30px;
-}
 #contact{
+  position: absolute;
+  top: 1900px;
+  margin:  15px;
+}
+
+
+
+
+
+@media only screen and (max-width: 393px) {
+  .about li{
+  display: flex;
+  gap: 20px;
+  
+}
+
+.about_asos   {
+  background-color:#45464FFF ;
+  color: white;
+  height: 90px;
+  width: 393px;
+  position: fixed;
+  left: 10;
+  top: 05px;
+}
+
+.about ul{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+ .about a{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-decoration: none;
+}
+.about h1{
+  color: #FF8A56;
+  font-size: 25px;
+  position: absolute;
+  top: 150px;
+}
+.about .h_1{
+  color: black;
+  font-size: 50px;
+  position: absolute;
+  top: 170px;
+}
+br{
   display: none;
 }
-.contact_me{
-  background-color: #45464FFF;
-  border: #45464FFF;
-  color: white;
+.about p{
+  position: absolute;
+  top: 330px;
   font-size: 16px;
+  color: #666666;
+}
+.about img{
+  height: 380px;
+  position: absolute;
+  top: 320px;
+  left: 50px;
+}
+.btn1{
+  height: 35px;
+  position: absolute;
+  top: 750px;
+  left: 30px;
+  font-size: 20px;
+  background-color: white;
+  border: white;
+}
+.btn2{
+  height: 35px;
+  position: absolute;
+  top: 750px;
+  left: 141px;
+  font-size: 20px;
+  background-color: white;
+  border: white;
+}
+.btn1:hover{
+  color:white;
+  background-color:black;
+  border:black;
+}
+.btn2:hover{
+  color:white;
+  background-color:black;
+  border:black;
+
+  }
+.trusted p{
+  display: flex;
+  margin-left:135px;
+  margin-top: 850px;
+}
+.trusted img{
+  width: 390px;
+  margin-left: -60px;
+  margin-top: 15px;
+}
+.services h3{
+  color: #FF5E69;
+  display: flex;
+  
+  margin-left:135px;
+  margin-top: 60px;
+}
+.services h1{  
+  display: flex;
+  margin-left: 30px;
+  margin-top: 9px;
+}
+.services_1{
+  margin-left: 20px;
+  margin-top: 80px;
+}
+.services_1 ul{
+  list-style-type: square;
+  margin-left:-25px;
+  
+}
+.services_2{
+  margin-left: 20px;
+  margin-top: 105px;
+  
+}
+.services_2 ul{
+  list-style-type: square;
+  margin-left:-25px;
+}
+.services_3{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.services_3 ul{
+  list-style-type: square;
+  margin-left:-25px;
+}
+
+.projects h3{
+color:#b16cea ;
+position: absolute;
+left: 35px;
+
+}
+.projects h1{
+
+position: absolute;
+left: 35px;
+top: 2200px;
+}
+.projects img{
+width: 360px;
+position: absolute;
+left: 15px;
+top: 2290px;
+}
+.view{
+  border: white;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 2225px;
+  left:250px;
+  font-size: 18px;
+}
+
+
+#contact{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.a1{
+  position: absolute;
+  top: 520px;
+  left: -15px;
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 385px;
+  padding-left: 15px;
+}
+.a2{
+  position: absolute;
+  top: 550px;
+  width: 393px;
+  left: -15px;
+  padding-left: 15px;
+  color: white;
+  
+}
 }

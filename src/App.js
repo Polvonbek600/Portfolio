@@ -71,8 +71,8 @@ function App() {
                 <img src="./amalyotlar.png" alt=""/>
               </div>
               <div id="contact">
-                <a href="mailto:polvonbekbaltabaev@gmail.com">polvonbekbaltabaev@gmail.com</a> <br/>
-                <a href="tel:+998336562709">+998 33 656 27 09</a>
+                <a class="a1" href="mailto:polvonbekbaltabaev@gmail.com">polvonbekbaltabaev@gmail.com</a> <br/>
+                <a class="a2" href="tel:+998336562709">+998 33 656 27 09</a>
 
               </div>
 
@@ -97,9 +97,7 @@ function App() {
                  <a href="#project">Projects</a>
                  </li>
                  <li>
-              <button class="contact_me">
-                Contact Me
-              </button>
+              <a href="#contact">Contact Me</a>
             </li>
               
               
