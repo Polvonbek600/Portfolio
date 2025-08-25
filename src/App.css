@@ -9,21 +9,30 @@ body{
   gap: 50px;
   
 }
-
 .about_asos   {
   background-color:#45464FFF ;
   color: white;
   height: 50px;
   width: 1201px;
-  position: fixed;
+  position:absolute ;
   left: 10;
   top: 05px;
 }
-
+.about_asos:hover  {
+  background-color:#45464FFF ;
+  color: white;
+  height: 50px;
+  width: 1201px;
+  position:fixed ;
+  left: 10;
+  top: 05px;
+}
 .about ul{
   position: absolute;
-  left: 650px;
+  left: 700px;
   top: 5px;
+  display: flex;
+  gap: 25px;
 }
 .about a{
   color: rgb(255, 255, 255);
@@ -42,12 +51,6 @@ body{
   position: absolute;
   top: 200px;
 }
-.about p{
-  position: absolute;
-  top: 350px;
-  font-size: 15px;
-  color: #666666;
-}
 .about img{
   height: 590px;
   position: absolute;
@@ -56,17 +59,19 @@ body{
 }
 .btn1{
   height: 35px;
+  width: 115px;
   position: absolute;
-  top: 500px;
+  top:100px;
   left: 50px;
   background-color: white;
   border: white;
 }
 .btn2{
   height: 35px;
+  width: 149px;
   position: absolute;
-  top: 500px;
-  left: 131px;
+  top: 100px;
+  left: 170px;
   background-color: white;
   border: white;
 }
@@ -81,282 +86,471 @@ body{
   border:black;
 
   }
-.trusted p{
-  display: flex;
-  margin-left:575px;
-  margin-top: 600px;
+.about button{
+  color: white;
+  background-color:#45464FFF ;
+  border:#45464FFF ;
 }
-.trusted img{
-  margin-left:10% ;
-  margin-top: 15px;
+.Contact_me img {
+  height: 90px;
+  position: absolute;
+  top: 10px;
+  left:250px 
 }
-.services h3{
-  color: #FF5E69;
-  display: flex;
-  
-  margin-left:575px;
-  margin-top: 95px;
-}
-.services h1{
-  
-  display: flex;
-  
-  margin-left: 409px;
-  margin-top: 9px;
-}
-.services_1{
-  margin-left: 80px;
-  margin-top: 80px;
-}
-.services_1 ul{
-  list-style-type: square;
-  margin-left:-25px;
-}
-.services_2{
-  margin-left: 410px;
-  margin-top: -295px;
-  
-}
-.services_2 ul{
-  list-style-type: square;
-  margin-left:-25px;
-}
-.services_3{
-  margin-left: 750px;
-  margin-top: -295px;
-}
-.services_3 ul{
-  list-style-type: square;
-  margin-left:-25px;
-}
-.services_1 li{
-  margin: 5px 0; 
-}
-.services_2 li{
-  margin: 5px 0; 
-}
-.services_3 li{
-  margin: 5px 0; 
-}
-.projects h3{
-color:#b16cea ;
-position: absolute;
-left: 35px;
-}
-.projects h1{
 
+.btn-group {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
+
+.btn1, .btn2 {
+  height: 35px;
+  
+  padding: 0 15px;
+  background-color: white;
+  border: white;
+  cursor: pointer;
+}
+
+.btn1:hover, .btn2:hover {
+  color: white;
+  background-color: black;
+  border: rgb(0, 0, 0);
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+
+.Contact_me {
+  display: block;
+  border: 1px solid #45464FFF;
+  background-color: #45464FFF;
+  height: auto;
+  min-height: 350px;
+  width: 500px;
+  position: relative;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.contact-info p {
+  margin: 15px 0;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+  
+}
+.contact-info{
+  position:absolute;
+  top: 140px;
+  left: 25%;
+}
+.Contact_me h2{
+ position:absolute;
+  top: 90px;
+  left: 40%;
+}
+
+#div_about {
+  position: absolute;
+  top:680px;
+  margin: 15px;
+}
+.skills{
+  
+  font-family: Arial, sans-serif;
+}
+#div_trusted h2{
 position: absolute;
-left: 35px;
+left: 550px;
 top: 1300px;
 }
-.projects img{
-width: 950px;
+#div_trusted img{
 position: absolute;
-left: 35px;
-top: 1390px;
+left: -2px;
+height: 100px;
+width: 100px;
+top: -2px;}
+
+#div_trusted button{
+position: absolute;
+left: 550px;
+height: 100px;
+width: 100px;
+top: 1360px;
+
 }
-.view{
-  border: white;
-  background-color: white;
-  color: rgb(0, 0, 0);
+#div_trusted button:hover{
+
+background-color: #EFEFEFFF;
+border: white;
+}
+#div_services h2{
   position: absolute;
-  top: 1325px;
-  left:850px;
-  font-size: 18px;
+  left:550px;
+  top:1500px;
 }
-#contact{
+#div_services h1{
   position: absolute;
-  top: 1900px;
-  margin:  15px;
+  left:400px;
+  top:1530px;
+}
+.services1{
+  position: absolute;
+  left:125px;
+  top:1700px;
+}
+.services2{
+  position: absolute;
+  left:505px;
+  top:1700px;
+}
+.services3{
+  position: absolute;
+  left:855px;
+  top:1700px;
 }
 
 
-
+.services1 ul{
+  margin-left: -15px;
+  list-style-type: square; 
+}
+.services2 ul{
+  margin-left: -15px;
+  list-style-type: square; 
+}
+.services3 ul{
+  margin-left: -15px;
+  list-style-type: square; 
+}
+#div_projects{
+  position: absolute;
+  top: 2000px;
+  margin: 25px;
+}
+#div_projects h3{
+  color:#b16cea ;
+}
+.btn3{
+  position: absolute;
+  left: 700px;
+  top: 60px;
+  width: 125px;
+  height: 30px;
+  height: 35px;
+  background-color: #45464FFF;
+  border: #45464FFF;
+  color: white;
+}
+.btn3:hover{
+  background-color: black;
+}
+.projects_h2{
+  position: absolute;
+  left: -10px;
+}
+#div_projects b{
+ font-size:24px ;
+}
+.projects_btn2, .div_projects img{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top:150px;
+  left: 15px;
+}
+.projects_btn2, {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top:150px;
+  left: 15px;
+}
+.projects_img2{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top:0px;
+  left: 0px
+}
+.name{
+  display: none;
+}
 
 
 @media only screen and (max-width: 393px) {
-  .about li{
+  .about h2{
+    display: none;
+  }
+  .about{
+  margin: 15px;
+}
+.about li{
   display: flex;
-  gap: 20px;
+  gap: 50px;
   
 }
-
 .about_asos   {
   background-color:#45464FFF ;
   color: white;
-  height: 90px;
+  height: 60px;
   width: 393px;
-  position: fixed;
+  position:absolute ;
+  left: 0;
+  top: 05px;
+}
+.about_asos:hover  {
+  background-color:#45464FFF ;
+  color: white;
+  height: 60px;
+  width: 393px;
+  position:fixed ;
   left: 10;
   top: 05px;
 }
-
 .about ul{
   position: absolute;
-  left: 0px;
-  top: 40px;
+  left: -30px;
+  top: 5px;
+  display: flex;
+  gap: 25px;
 }
- .about a{
+.about a{
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-decoration: none;
 }
+br{
+  display: none;
+}
 .about h1{
   color: #FF8A56;
-  font-size: 25px;
+  font-size: 50px;
   position: absolute;
-  top: 150px;
+  top: 80px;
 }
 .about .h_1{
   color: black;
   font-size: 50px;
   position: absolute;
-  top: 170px;
-}
-br{
-  display: none;
-}
-.about p{
-  position: absolute;
-  top: 330px;
-  font-size: 16px;
-  color: #666666;
+  top: 200px;
 }
 .about img{
-  height: 380px;
+  height: 490px;
   position: absolute;
-  top: 320px;
-  left: 50px;
+  top: 230px;
+  left: 30px;
 }
 .btn1{
   height: 35px;
+  width: 115px;
   position: absolute;
-  top: 750px;
+  top:290px;
   left: 30px;
-  font-size: 20px;
-  background-color: white;
-  border: white;
+  background-color: rgb(46, 37, 37);
+  border: rgb(5, 4, 4);
 }
 .btn2{
   height: 35px;
+  width: 130px;
   position: absolute;
-  top: 750px;
-  left: 141px;
-  font-size: 20px;
+  top: 290px;
+  left: 150px;
   background-color: white;
   border: white;
 }
-.btn1:hover{
-  color:white;
-  background-color:black;
-  border:black;
-}
-.btn2:hover{
-  color:white;
-  background-color:black;
-  border:black;
 
-  }
-.trusted p{
-  display: flex;
-  margin-left:135px;
-  margin-top: 850px;
-}
-.trusted img{
-  width: 390px;
-  margin-left: -60px;
-  margin-top: 15px;
-}
-.services h3{
-  color: #FF5E69;
-  display: flex;
-  
-  margin-left:135px;
-  margin-top: 60px;
-}
-.services h1{  
-  display: flex;
-  margin-left: 30px;
-  margin-top: 9px;
-}
-.services_1{
-  margin-left: 20px;
-  margin-top: 80px;
-}
-.services_1 ul{
-  list-style-type: square;
-  margin-left:-25px;
-  
-}
-.services_2{
-  margin-left: 20px;
-  margin-top: 105px;
-  
-}
-.services_2 ul{
-  list-style-type: square;
-  margin-left:-25px;
-}
-.services_3{
-  margin-left: 20px;
-  margin-top: 30px;
-}
-.services_3 ul{
-  list-style-type: square;
-  margin-left:-25px;
-}
-
-.projects h3{
-color:#b16cea ;
-position: absolute;
-left: 35px;
-
-}
-.projects h1{
-
-position: absolute;
-left: 35px;
-top: 2200px;
-}
-.projects img{
-width: 360px;
-position: absolute;
-left: 15px;
-top: 2290px;
-}
-.view{
-  border: white;
-  background-color: white;
-  color: rgb(0, 0, 0);
-  position: absolute;
-  top: 2225px;
-  left:250px;
-  font-size: 18px;
-}
-
-
-#contact{
-  background-color: black;
+.about button{
   color: white;
-  height: 50px;
+  background-color:#45464FFF ;
+  border:#45464FFF ;
 }
-.a1{
+.name{
+  display: block;
   position: absolute;
-  top: 520px;
-  left: -15px;
-  background-color: black;
-  color: white;
-  height: 100px;
-  width: 385px;
-  padding-left: 15px;
+  top: 705px;
+  left: 45px;
+  font-size: 30px ;
 }
-.a2{
+#div_about {
   position: absolute;
-  top: 550px;
-  width: 393px;
-  left: -15px;
-  padding-left: 15px;
+  top:830px;
+  margin: 15px;
+
+}
+.skills{
+  
+  font-family: Arial, sans-serif;
+}
+#div_trusted h2{
+position: absolute;
+left: 130px;
+top: 1350px;
+}
+#div_trusted img{
+position: absolute;
+left: -2px;
+height: 100px;
+width: 100px;
+top: -2px;}
+
+#div_trusted button{
+position: absolute;
+left: 50px;
+height: 100px;
+width: 100px;
+top: 1410px;
+
+}
+#div_trusted button:hover{
+
+background-color: #EFEFEFFF;
+border: white;
+}
+#div_services h2{
+  position: absolute;
+  left:140px;
+  top:1520px;
+}
+#div_services h1{
+  position: absolute;
+  left:2cqmax;
+  top:1550px;
+}
+.services1{
+  position: absolute;
+  left:35px;
+  top:1730px;
+}
+.services2{
+  position: absolute;
+  left:35px;
+  top:2000px;
+}
+.services3{
+  position: absolute;
+  left:35px;
+  top:2280px;
+}
+.services3 ul{
+  margin-left: -15px;
+  list-style-type: square; 
+}
+#div_projects{
+  position: absolute;
+  top: 2510px;
+  margin: 25px;
+}
+ .btn3{
+  position: absolute;
+  left: 190px;
+  top: 300px;
+ }
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+
+.Contact_me {
+  display: block;
+  border: 1px solid #45464FFF;
+  background-color: #45464FFF;
+  height: auto;
+  min-height: 350px;
+  width: 280px;
+  position: relative;
   color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.contact-info p {
+  margin: 15px 0;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.contact-info a:hover {
+  text-decoration: underline;
   
 }
+.contact-info{
+  position:absolute;
+  top: 140px;
+  left: 15px;
+}
+.Contact_me h2{
+ position:absolute;
+  top: 90px;
+  left: 100px;
+}
+
+.Contact_me img{
+ position: absolute;
+ left: 120px;
+}
+
 }
