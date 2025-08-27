@@ -86,6 +86,16 @@ const handleClick = () => {
                   <b>Github:</b> Polvonbek600
                 </a>
               </p>
+              <p>
+                <a href="https://vercel.com/polvonbeks-projects">
+                  <b>Vercel:</b> Polvonbek
+                </a>
+              </p>
+              <p>
+                <a href="https://app.netlify.com/teams/polvonbek600/projects">
+                  <b>Netlify:</b> Polvonbek600
+                </a>
+              </p>
             </div>
           </div>
         </div>
