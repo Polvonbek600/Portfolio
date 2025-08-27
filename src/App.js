@@ -29,7 +29,7 @@ const handleClick = () => {
           
           <div className="btn-group">
             <button className="btn1"><a href="tel:+998336562709">Book a call</a></button>
-            <button className="btn2"><a href="./B.Polvonbek_CV.pdf" download>Download CV <i className="ri-arrow-right-line"></i></a>
+            <button className="btn2"><a href="./Polvonbek_CV.pdf" download>Download CV <i className="ri-arrow-right-line"></i></a>
               
             </button>
           
