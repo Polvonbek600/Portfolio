@@ -28,8 +28,8 @@ const handleClick = () => {
 
           
           <div className="btn-group">
-            <button className="btn1"><a href="tel:+998336562709">Book a call</a></button>
-            <button className="btn2"><a href="./Polvonbek_CV.pdf" download>Download CV <i className="ri-arrow-right-line"></i></a>
+            <button  id='div_about2' className="btn1"><a href="tel:+998336562709">Book a call</a></button>
+            <button className="btn2"><a href="Polvonbek.pdf" download>Download CV <i className="ri-arrow-right-line"></i></a>
               
             </button>
           
@@ -40,7 +40,7 @@ const handleClick = () => {
           <div className="about">
             <h2><b>Boltabaev Polvonbek</b></h2>
             <ul>
-              <li><a href="#div_about">
+              <li><a href="#div_about2">
                 About
                 </a></li>
               <li><a href='#div3'>
@@ -94,12 +94,12 @@ const handleClick = () => {
      <div id='div_about'>
         <h2 >About</h2>
 
-        <p>
+        <p className='pall' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px"}}>
         <b>Education:</b><br />
         10th grade, Secondary School No. 4
       </p>
         
-        <p>
+        <p className='pall'   style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px"}}>
         <b>Address:</b><br />
         Republic of Karakalpakstan, Turtkul district
       </p>
@@ -108,17 +108,17 @@ const handleClick = () => {
 
       
 
-      <p>
+      <p className='pall'  style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px"}}>
         <b>Work Experience:</b><br />
         Creating web pages (HTML, CSS, JavaScript)
       </p>
 
-      <p>
+      {/* <p>
         <b>Duration:</b><br />
         
-      </p>
+      </p> */}
 
-      <p>
+      <p  className='pall4' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px",}}>
         <b>Skills:</b><br />
         <ul className="skills">
           <li>HTML, CSS, JavaScript</li>
@@ -130,18 +130,18 @@ const handleClick = () => {
         </ul>
       </p>
 
-      <p>
+      <p className='pall2' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px", }}>
         <b>Languages:</b><br />
         Uzbek - Native;<br /> English - Intermediate
       </p>
-      <p>
+      <p className='pall3' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px" ,}}>
         <b>Objective:</b><br />
         To work as a Frontend Developer, contribute to the company's  <br id='div3' />success, and improve my professional skills.
       </p  >
      </div>
       
      
-     <div id='div_trusted' >
+     <div id='div_trusted'  >
         <h2 id='div4' >Trusted by</h2>
         <button onClick={handleClick}><img src={no} alt="" /></button>
      </div>
@@ -152,21 +152,25 @@ const handleClick = () => {
       <div className='services1'>
         <img className='icon1' src={icon} alt="" />
         <h3>What I can do for you</h3>
-        <p>Faster, better websites that your<br/> users will love. Here are all <br/> the services I offer:</p>
+        <p>Build fast, interactive, and modern<br/> web applications that users love. <br/> Here are the services I offer:</p>
         <ul>
-          <li><b>Design Strategy</b></li>
-          <li><b>Web and Mobile App Design</b></li>
-          <li><b>Front-end Development</b></li>
+          <li><b>Front-end Development with React.js</b></li>
+          <li><b>Responsive Web Design</b></li>
+          <li><b>Performance Optimization</b></li>
+          <li><b>API Integration</b></li>
         </ul>
       </div>
       {/* 2 */}
       <div className='services2'>
         <img className='icon1' src={icon2} alt="" />
         <h3>Applications I'm fluent in</h3>
-        <p>Every designer needs the right <br/> tools to do a great job. Every<br/>  website needs the right tools to<br/>  do a great job. Luckily, I know<br/>  a little English.</p>
+        <p>Every developer needs the right <br/>tools to build great apps. Luckily,<br/> I know these well:</p>
         <ul>
-          <li><b>Sketch</b></li>
-          <li><b>Figma</b></li>
+          <li><b>React.js</b></li>
+          <li><b>JavaScript</b></li>
+          <li><b>HTML & CSS</b></li>
+          <li><b>Git & GitHub</b></li>
+          
           
         </ul>
       </div>
@@ -174,11 +178,11 @@ const handleClick = () => {
       <div className='services3'>
         <img className='icon1' src={icon3} alt="" />
         <h3>What you can expect</h3>
-        <p>EI build good websites. I make <br/>them portable and usable.</p>
+        <p>I deliver clean, maintainable,<br/> and efficient code that ensures <br/>the best user experience.</p>
         <ul>
-          <li><b>Device and user friendly</b></li>
-          <li><b>Efficient and maintainable</b></li>
-          <li><b>Clean and functional</b></li>
+          
+          <li><b>Responsive and user-friendly UI</b></li>
+          <li><b>Fast and optimized performance</b></li>
         </ul>
       </div>
 

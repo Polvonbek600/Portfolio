@@ -13,7 +13,7 @@ body{
   background-color:#45464FFF ;
   color: white;
   height: 50px;
-  width: 1201px;
+  width: 1216px;
   position:absolute ;
   left: 10;
   top: 05px;
@@ -104,6 +104,7 @@ body{
   position: absolute;
   top: 500px;
   left: 50px;
+  color: white;
 }
 
 .btn1, .btn2 {
@@ -199,7 +200,7 @@ body{
 #div_trusted h2{
 position: absolute;
 left: 550px;
-top: 1300px;
+top: 1000px;
 }
 #div_trusted img{
 position: absolute;
@@ -213,8 +214,47 @@ position: absolute;
 left: 550px;
 height: 100px;
 width: 100px;
-top: 1360px;
+top: 1080px;
 
+}
+.pall{
+  position: relative;
+  top: -10px;
+  left: 50px;
+}
+.pall:hover{
+  position:relative;
+  top: -15px;
+}
+.pall2{
+  position: relative;
+  top: -380px;
+  left: 400px;
+}
+.pall3{
+  position: relative;
+  top: -380px;
+  left: 400px;
+}
+.pall4{
+  position: relative;
+  top: -200px;
+  left: 750px;
+}
+.pall2:hover{
+  position: relative;
+  top: -390px;
+  
+}
+.pall3:hover{
+  position: relative;
+  top: -390px;
+  
+}
+.pall4:hover{
+  position: relative;
+  top: -210px;
+  
 }
 #div_trusted button:hover{
 
@@ -224,27 +264,27 @@ border: white;
 #div_services h2{
   position: absolute;
   left:550px;
-  top:1500px;
+  top:1250px;
 }
 #div_services h1{
   position: absolute;
   left:400px;
-  top:1530px;
+  top:1290px;
 }
 .services1{
   position: absolute;
   left:125px;
-  top:1700px;
+  top:1450px;
 }
 .services2{
   position: absolute;
   left:505px;
-  top:1700px;
+  top:1450px;
 }
 .services3{
   position: absolute;
   left:855px;
-  top:1700px;
+  top:1450px;
 }
 
 
@@ -262,7 +302,7 @@ border: white;
 }
 #div_projects{
   position: absolute;
-  top: 2000px;
+  top: 1780px;
   margin: 25px;
 }
 #div_projects h3{
