@@ -102,15 +102,15 @@ const handleClick = () => {
       )}
 
      <div id='div_about'>
-        <h2 >About</h2>
+        <h2 className='aboutname' >About</h2>
 
         <p className='pall' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px"}}>
-        <b>Education:</b><br />
+        <b>Education:</b><br className='br1' />
         10th grade, Secondary School No. 4
       </p>
         
         <p className='pall'   style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px"}}>
-        <b>Address:</b><br />
+        <b>Address:</b><br  className='br1'/>
         Republic of Karakalpakstan, Turtkul district
       </p>
 
@@ -119,7 +119,7 @@ const handleClick = () => {
       
 
       <p className='pall'  style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px"}}>
-        <b>Work Experience:</b><br />
+        <b>Work Experience:</b><br  className='br1'/>
         Creating web pages (HTML, CSS, JavaScript)
       </p>
 
@@ -129,7 +129,7 @@ const handleClick = () => {
       </p> */}
 
       <p  className='pall4' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px",}}>
-        <b>Skills:</b><br />
+        <b>Skills:</b><br className='br1' />
         <ul className="skills">
           <li>HTML, CSS, JavaScript</li>
           <li>Git, GitHub</li>
@@ -141,11 +141,11 @@ const handleClick = () => {
       </p>
 
       <p className='pall2' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px", }}>
-        <b>Languages:</b><br />
-        Uzbek - Native;<br /> English - Intermediate
+        <b>Languages:</b><br  className='br1'/>
+        Uzbek - Native;<br  className='br1'/> English - Intermediate
       </p>
       <p className='pall3' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px" ,}}>
-        <b>Objective:</b><br />
+        <b>Objective:</b><br className='br1' />
         To work as a Frontend Developer, contribute to the company's  <br id='div3' />success, and improve my professional skills.
       </p  >
      </div>
@@ -159,7 +159,7 @@ const handleClick = () => {
       <h2>Services</h2>
       <h1>Design that solves problems,<br/> one product at a time.</h1>
       {/* 1 */}
-      <div className='services1'>
+      <div className='services1' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px"}}>
         <img className='icon1' src={icon} alt="" />
         <h3>What I can do for you</h3>
         <p>Build fast, interactive, and modern<br/> web applications that users love. <br/> Here are the services I offer:</p>
@@ -171,7 +171,7 @@ const handleClick = () => {
         </ul>
       </div>
       {/* 2 */}
-      <div className='services2'>
+      <div className='services2' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px",height:"310px"}}>
         <img className='icon1' src={icon2} alt="" />
         <h3>Applications I'm fluent in</h3>
         <p>Every developer needs the right <br/>tools to build great apps. Luckily,<br/> I know these well:</p>
@@ -185,7 +185,7 @@ const handleClick = () => {
         </ul>
       </div>
       {/* 3 */}
-      <div className='services3'>
+      <div className='services3' style={{border:"1px solid white ",boxShadow:"1px 1px 2px black",borderRadius:"5px",width:"300px",height:"310px"}}>
         <img className='icon1' src={icon3} alt="" />
         <h3>What you can expect</h3>
         <p>I deliver clean, maintainable,<br/> and efficient code that ensures <br/>the best user experience.</p>

@@ -353,7 +353,18 @@ border: white;
 .name{
   display: none;
 }
-
+.services1:hover{
+  position: absolute;
+  top: 1420px;
+}
+.services2:hover{
+  position: absolute;
+  top: 1420px;
+}
+.services3:hover{
+  position: absolute;
+  top: 1420px;
+}
 
 @media only screen and (max-width: 393px) {
   .about h2{
@@ -385,6 +396,7 @@ border: white;
   left: 10;
   top: 05px;
 }
+
 .about ul{
   position: absolute;
   left: -30px;
@@ -415,14 +427,14 @@ br{
 .about img{
   height: 490px;
   position: absolute;
-  top: 230px;
+  top: 290px;
   left: 30px;
 }
 .btn1{
   height: 35px;
   width: 115px;
   position: absolute;
-  top:290px;
+  top:350px;
   left: 30px;
   background-color: rgb(46, 37, 37);
   border: rgb(5, 4, 4);
@@ -431,7 +443,7 @@ br{
   height: 35px;
   width: 130px;
   position: absolute;
-  top: 290px;
+  top: 350px;
   left: 150px;
   background-color: white;
   border: white;
@@ -445,15 +457,58 @@ br{
 .name{
   display: block;
   position: absolute;
-  top: 705px;
+  top: 755px;
   left: 45px;
   font-size: 30px ;
 }
 #div_about {
   position: absolute;
-  top:830px;
+  top:880px;
   margin: 15px;
 
+}
+.br1{
+  display: block;
+}
+.pall2{
+  position: absolute;
+left: 50px;
+top: 225px;
+
+}
+.pall2:hover{
+  position: relative;
+left: 50px;
+top: -15px;
+
+}
+.pall3{
+  position: absolute;
+left: 50px;
+top: 295px;
+
+}
+.pall4{
+  position: absolute;
+left: 50px;
+top: 385px;
+
+}
+.pall3:hover{
+  position: absolute;
+left: 50px;
+top: 285px;
+
+}
+.pall4:hover{
+  position: absolute;
+left: 50px;
+top: 375px;
+
+}
+.aboutname{
+ position: relative;
+ left: 150px;
 }
 .skills{
   
@@ -462,7 +517,7 @@ br{
 #div_trusted h2{
 position: absolute;
 left: 130px;
-top: 1350px;
+top: 1500px;
 }
 #div_trusted img{
 position: absolute;
@@ -476,7 +531,7 @@ position: absolute;
 left: 50px;
 height: 100px;
 width: 100px;
-top: 1410px;
+top: 1580px;
 
 }
 #div_trusted button:hover{
@@ -487,27 +542,42 @@ border: white;
 #div_services h2{
   position: absolute;
   left:140px;
-  top:1520px;
+  top:1700px;
 }
 #div_services h1{
   position: absolute;
   left:2cqmax;
-  top:1550px;
+  top:1750px;
 }
 .services1{
   position: absolute;
   left:35px;
-  top:1730px;
+  top:1930px;
 }
 .services2{
   position: absolute;
   left:35px;
-  top:2000px;
+  top:2250px;
 }
 .services3{
   position: absolute;
   left:35px;
-  top:2280px;
+  top:2580px;
+}
+.services1:hover{
+  position: absolute;
+  left:35px;
+  top:1920px;
+}
+.services2:hover{
+  position: absolute;
+  left:35px;
+  top:2244px;
+}
+.services3:hover{
+  position: absolute;
+  left:35px;
+  top:2570px;
 }
 .services3 ul{
   margin-left: -15px;
@@ -515,7 +585,7 @@ border: white;
 }
 #div_projects{
   position: absolute;
-  top: 2510px;
+  top: 2860px;
   margin: 25px;
 }
  .btn3{
